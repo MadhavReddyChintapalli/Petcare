@@ -1,0 +1,97 @@
+.feed-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #595959;
+}
+
+.feed-card span {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.feed-card {
+  margin: 20px 10px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(104, 104, 104, 0.119);
+}
+
+.feed-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.create-feed-btn {
+  margin: 10px !important;
+  float: right;
+}
+
+.custom-form-text-input {
+  display: block;
+  margin-bottom: 10px;
+  height: 30px;
+  min-width: 300px;
+  margin-top: 5px;
+  border: 1px solid #e4e4e4;
+  padding-left: 10px;
+}
+
+.custom-text-area-input {
+  display: block;
+  margin-top: 5px;
+  min-width: 500px;
+  min-height: 100px;
+  padding: 5;
+  border: 1px solid #e4e4e4;
+}
+
+.form-banner {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.create-btn {
+  display: flex !important;
+  margin-top: 20px !important;
+}
+
+.paper-container {
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.add-new-image {
+  height: 100px;
+}
+
+.uploaded-image {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.upload-image-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.edit-btn {
+  position: absolute !important;
+  right: -15px !important;
+  top: -15px !important;
+}
+
+.feed-desc {
+  margin: 15px 0px;
+  height: 40px;
+}
+
+.back-arrow{
+  margin-top: 10px;
+}
+.form-flex-container{
+  display: flex;
+  align-items: center;
+}

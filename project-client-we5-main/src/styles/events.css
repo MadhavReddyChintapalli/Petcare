@@ -1,0 +1,57 @@
+.event-container {
+  margin: 10px !important;
+}
+.event-container h1 {
+  text-align: center !important;
+}
+.event-item {
+  padding: 20px;
+}
+.event-container img {
+  width: 80%;
+  height: auto;
+  margin: 15px;
+  box-shadow: -1px 5px 9px 3px #b4b4b4;
+  padding: 15px;
+}
+
+.uploaded-image {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.upload-image-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.edit-btn {
+  position: absolute !important;
+  right: -15px !important;
+  top: -15px !important;
+}
+
+.create-event-btn {
+  margin: 10px !important;
+  float: right;
+}
+
+.paper-container img {
+  width: 50%;
+  height: auto;
+  margin: 15px;
+}
+
+.uploaded-image {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.edit-btn Span {
+  position: absolute !important;
+  right: -15px !important;
+  top: -15px !important;
+}

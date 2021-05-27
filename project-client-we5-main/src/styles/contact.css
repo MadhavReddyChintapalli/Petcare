@@ -1,0 +1,129 @@
+/* @import url("https://fonts.google.com/specimen/Lusitana?preview.text=Contact&preview.text_type=custom&sidebar.open=true&selection.family=Lusitana"); */
+/* @import url("https://fonts.google.com/specimen/Anton?preview.text=Name&preview.text_type=custom&sidebar.open=true&selection.family=Anton"); */
+
+.heading {
+  background-color: white;
+  height: 70px;
+}
+.heading-text {
+  padding-top: 25px;
+  font-family: "Lusitana", serif;
+  padding-left: 50px;
+  font-size: 30px;
+}
+
+.sub-heading {
+  font-size: 20px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.contact-info {
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+.contact-number,
+.licence-details,
+.service-zone {
+  padding-top: 5px;
+}
+.form-heading {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.contactus .MuiFormControl-root {
+  display: block !important;
+  margin: 50px !important;
+}
+
+.custom-textArea textarea {
+  min-height: 200px;
+  min-width: 300px !important;
+  padding-left: 50px;
+}
+
+.contact-img {
+  margin-right: auto;
+  width: 600px;
+  height: 600px;
+  margin-top: 50px;
+  padding-left: 50px;
+  object-fit: contain;
+}
+
+.contactus {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-form-text-input {
+  display: block;
+  margin-bottom: 10px;
+  height: 30px;
+  min-width: 300px;
+  margin-top: 5px;
+  border: 1px solid #e4e4e4;
+  padding-left: 10px;
+}
+
+.custom-text-area-input {
+  display: block;
+  margin-top: 5px;
+  min-width: 300px;
+  min-height: 100px;
+  padding: 5;
+  border: 1px solid #e4e4e4;
+}
+
+.form-banner {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.create-btn {
+  display: flex !important;
+  margin-top: 20px !important;
+}
+
+.paper-container {
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.add-new-image {
+  height: 100px;
+}
+
+.uploaded-image {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.upload-image-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.edit-btn {
+  position: absolute !important;
+  right: -15px !important;
+  top: -15px !important;
+}
+
+.feed-desc {
+  margin: 15px 0px;
+  height: 40px;
+}
+
+.contact-form {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.send-btn {
+  margin-top: 20px !important;
+}

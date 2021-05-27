@@ -1,0 +1,87 @@
+.login-inner-container {
+  max-width: 900px;
+  margin: 0 auto !important;
+  margin-top: 20px !important;
+  min-height: 60vh;
+}
+
+.login-image {
+  width: 400px;
+  object-fit: contain;
+  padding-right: 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.119);
+}
+
+#Login .intro-left-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#Login .error-message {
+  line-height: 20px;
+  color: red;
+}
+
+#Login .intro-right-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.login-btn {
+  background-color: #f95a4a !important;
+  color: white !important;
+  width: 150px;
+  font-weight: 700 !important;
+  margin-top: 20px !important;
+  height: 40px;
+  display: flex !important;
+}
+
+#Login .greetings {
+  font-size: 30px;
+}
+
+#Login .greetings-tag-line {
+  color: gray;
+  margin-left: 2px;
+}
+
+.login-hint {
+  margin: 20px 0px;
+  font-weight: bold;
+  color: gray;
+  margin-left: 2px;
+}
+
+#Login .terms-conditions {
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: 300;
+  color: rgb(60, 60, 60);
+}
+
+.need-help {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+#Login .contact-link {
+  color: #f95a4a;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+#Login .custom-input {
+  height: 40px;
+  margin: 0px !important;
+  margin-bottom: 10px !important;
+  width: 200px;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-left: 10px;
+}

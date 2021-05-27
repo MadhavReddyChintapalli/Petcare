@@ -1,0 +1,114 @@
+#LandingPage .intro-card {
+  min-height: 400px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+#LandingPage {
+  position: relative;
+  padding: 20px;
+}
+
+#LandingPage .tag-line {
+  font-size: 40px;
+}
+
+#LandingPage .tag-line span {
+  color: #f95a4a;
+  font-weight: bold;
+}
+
+#LandingPage .intro-left-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#LandingPage .hashtag{
+  color: gray;
+  position: absolute;
+}
+
+#LandingPage .dog-intro-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+#LandingPage .back-drop {
+  height: 700px;
+  width: 700px;
+  border-radius: 50%;
+  background-color: #f95a4a;
+  position: absolute;
+  right: -100px;
+  top: -200px;
+  z-index: -1;
+}
+
+#LandingPage .our-services-title {
+  color: #012169;
+  font-size: 26px;
+  position: relative;
+}
+
+#LandingPage .our-services-title::after {
+  content: " ";
+  position: absolute;
+  bottom: -5px;
+  height: 3px;
+  width: 75px;
+  background-color: #f95a4a;
+  left: 0px;
+}
+
+#LandingPage .our-services-title span {
+  color: #f95a4a;
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+#LandingPage .landing-inner-container {
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.services-card {
+  padding-top: 70px;
+  clear: both;
+}
+
+.right-align{
+  float: right;
+}
+
+.service-title{
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  background-color: #f9584a31;
+  padding-left: 10px;
+  padding-right: 20px;
+  display: inline;
+}
+
+.service-definition {
+  max-width: 500px;
+  color: rgb(69, 68, 68);
+  margin-top: 10px;
+}
+
+.service-definition a {
+  text-decoration: underline;
+  color: #f95a4a;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 700px) {
+  .back-drop {
+    display: none;
+  }
+}
